@@ -4,29 +4,30 @@
 ### Project 1 : **Raw Image Data Analysis and Processing Assignment**
 
 1. **Data Processing**
+    - implement various image data processing functions  
 
 ![image](https://github.com/user-attachments/assets/7406616b-2b84-4fec-ba67-5a49c1639882)
 
-1) Demosainking RAW Image
+a) Demosainking RAW Image
     - convert Bayer data into full RGB image
     - Bilinear Interpolation : each pixel values are averaged from its four neighbors
-    -   -----------------
+        -----------------
         |  red  | green |
         -----------------
         | green |  blue |
         -----------------
-2) White Balancing
-    - gray-world assumption
-3) Color Transformation
+b) White Balancing
+    - used gray-world assumption
+c) Color Transformation
     - convert the image from XYZ to RGB color space. (matrix converting)
-4) Gamma Encoding
+d) Gamma Encoding
 
 
 2. **Denoising**
+    - implement functions to estimate various noises in the imaging pipeline
+    - estimate dark current and read adc
 
 ![image](https://github.com/user-attachments/assets/df86a39f-7688-4a7a-a8ed-91694af17f85)
-
-implement functions to extimate various noises in the imaging pipeline
 
 
 3. **HDR Imaging**
