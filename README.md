@@ -11,11 +11,14 @@
 a) Demosainking RAW Image
     - convert Bayer data into full RGB image
     - Bilinear Interpolation : each pixel values are averaged from its four neighbors
+    - 
+-----------------
         -----------------
         |  red  | green |
         -----------------
         | green |  blue |
         -----------------
+
 b) White Balancing
     - used gray-world assumption
 c) Color Transformation
